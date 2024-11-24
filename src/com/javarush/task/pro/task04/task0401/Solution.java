@@ -8,7 +8,11 @@ public class Solution {
     public static void main(String[] args) {
         String quote = "Я никогда не буду работать за копейки. Амиго";
         //напишите тут ваш код
-        q
+        int a = 0;
+        while (a < 100) {
+            System.out.println(quote);
+            a++;
+        }
 
 
     }
