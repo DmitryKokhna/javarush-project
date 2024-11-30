@@ -14,10 +14,10 @@ public class Solution {
         boolean stateOfBrain = scanner.nextBoolean();
 
         if (stateOfBrain) {
-            System.out.print((int)Math.ceil(glass)); // избавляемся от дробной части, используя приведение к INT
+            System.out.print((int) Math.ceil(glass)); // избавляемся от дробной части, используя приведение к INT
         } else {
 
-            System.out.print((int)Math.floor(glass)); // избавляемся от дробной части, используя приведение к INT
+            System.out.print((int) Math.floor(glass)); // избавляемся от дробной части, используя приведение к INT
         }
 
 
