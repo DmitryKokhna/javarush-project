@@ -17,7 +17,7 @@ public class Solution {
         int minValue;
 
         for (int i = 0; i < n; i++) {
-            array[i] = Integer.parseInt(scanner.nextLine());
+            array[i] = Integer.parseInt(scanner.nextLine());// ЗАЧЕМ то проверяем
         }
         minValue = array[0];
         for (int i = 1; i < array.length; i++) {
