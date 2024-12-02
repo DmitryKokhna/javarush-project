@@ -14,13 +14,21 @@ public class Solution {
         int[] arrayOne = new int[enteredNumber];
         if (enteredNumber > 0) {
             arrayOne = new int[enteredNumber];
-            for (int i = 0; i < enteredNumber; i++) {
+
+            //ТУТ заполняем массив
+            for (int i = 0; i < arrayOne.length; i++) {
                 arrayOne[i] = scanner.nextInt();
             }
-//ТУТ МОЯ ПРОВЕРКА НА ПОРЯДОК ВЫВОДА !!!!!!!!!!!!!!!!!!!! НАПИСАТЬ
+//ТУТ МОЯ ПРОВЕРКА НА ПОРЯДОК ВЫВОДА
         }
-        for (int i = 0; i < enteredNumber; i++) {
-            System.out.println(arrayOne[i]);
+        if (enteredNumber % 2 != 0) {
+            for (int i = 0; i < arrayOne.length; i++) {
+                System.out.println(arrayOne[i]);
+            }
+        } else {
+            for (int i = arrayOne.length - 1; i >= 0; i--) {
+                System.out.println(arrayOne[i]);
+            }
         }
     }
 }
