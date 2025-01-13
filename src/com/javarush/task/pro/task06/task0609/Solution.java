@@ -18,7 +18,7 @@ public class Solution {
     }
 
     //напишите тут ваш код
-      public static long ninthDegree(long b) {
+    public static long ninthDegree(long b) {
 
         long result;
         result = cube(cube(b));
