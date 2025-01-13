@@ -7,9 +7,8 @@ package com.javarush.task.pro.task06.task0609;
 public class Solution {
     public static void main(String[] args) {
         int q = 3;
-        long s = cube(q);
-        long d = ninthDegree(s);
-
+        long d = ninthDegree(q);
+        System.out.println(d);
 
     }
 
