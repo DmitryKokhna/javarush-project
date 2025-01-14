@@ -17,7 +17,7 @@ public class Solution {
 
     public static void printCityPopulation(String city, double population){
         System.out.println("Население города " + city + " составляет " + population + " млн человек.");
-        //тут делаем вызом именно переменнй класса, добавив имя класса к переменной
+        //тут делаем вызов именно переменнй класса, добавив имя класса к переменной
         System.out.println("В то время как в самом густонаселенном городе " + Solution.city + " население составляет " + Solution.population + " млн человек.");
     }
 }
