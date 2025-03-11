@@ -24,10 +24,8 @@ public class Solution {
                 symbols[i] = '\u0076';
             } else if (i == 4) {
                 symbols[i] = '\u0061';
-
             } else if (i == 5) {
                 symbols[i] = '\u0052';
-
             } else if (i == 6) {
                 symbols[i] = '\u0075';
             } else if (i == 7) {
