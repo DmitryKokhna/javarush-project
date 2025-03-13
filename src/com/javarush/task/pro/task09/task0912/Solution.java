@@ -10,8 +10,6 @@ public class Solution {
         for (String url : urls) {
             String protocol = checkProtocol(url);
             String domain = checkDomain(url);
-
-
             System.out.println("У URL-адреса - " + url + ", сетевой протокол - " + protocol + ", домен - " + domain);
         }
     }
