@@ -14,8 +14,8 @@ public class Skyscraper {
         System.out.println(SKYSCRAPER_WAS_BUILD);
     }
 
-    public Skyscraper(int flour) {
-        System.out.println(SKYSCRAPER_WAS_BUILD_FLOORS_COUNT + flour);
+    public Skyscraper(int floor) {
+        System.out.println(SKYSCRAPER_WAS_BUILD_FLOORS_COUNT + floor);
     }
 
     public Skyscraper(String developer) {
