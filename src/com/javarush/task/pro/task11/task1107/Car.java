@@ -6,15 +6,19 @@ package com.javarush.task.pro.task11.task1107;
 
 public class Car {
     //напишите тут ваш код
-   private Engine engine;
+    // ТУТ создаем переменную с доступом private
+    private Engine engine;
 
     public class Engine {
-       private boolean isRunning;
+        // ТУТ создаем переменную с доступом private без инициализации
+        private boolean isRunning;
 
+        //ТУТ метод1 устанавливающий перемеммую
         public void start() {
             isRunning = true;
         }
 
+        //ТУТ метод1 устанавливающий перемеммую
         public void stop() {
             isRunning = false;
         }
