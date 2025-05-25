@@ -23,7 +23,7 @@ public class UniversityGroup {
 
     public void exclude(String excludedStudent) {
         //ТУТ УБРАЛИ цикд FOR-EACH т.к. обходить коллекцию и удалять элементы одновременно - нельзя
-        // ИСПОЛЬЗОВАЛИ "removeIF"
+        // ИСПОЛЬЗОВАЛИ "removeIF" метод
 students.removeIf(students-> students.equals(excludedStudent));
     }
 
