@@ -14,7 +14,7 @@ public class Solution {
         }
         System.out.println();
     }
-
+//ТУТ добавили BREAK после каждого сравнения
     public static String digitToText(char digit) {
         String result = "";
         switch (digit) {
