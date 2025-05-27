@@ -17,5 +17,14 @@ public class Solution {
     Boolean booleanValueBox;
 
     //напишите тут ваш код
-
+// ТУТ создаем ПРИМИТИВНУЮ переменную и инициализируем ее через ОБЪЕКТ соответсствующего типа
+    // с вызовом метода от соответствующего типа "типValue()"
+    byte byteValue = byteValueBox.byteValue();
+    short shortValue = shortValueBox.shortValue();
+    int intValue = integerValueBox.intValue();
+    long longValue = longValueBox.longValue();
+    float floatValue = floatValueBox.floatValue();
+    double doubleValue = doubleValueBox.doubleValue();
+    char charValue = characterValueBox.charValue();
+    boolean booleanValue = booleanValueBox.booleanValue();
 }
