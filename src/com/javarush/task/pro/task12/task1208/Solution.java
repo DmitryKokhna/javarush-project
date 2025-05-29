@@ -14,6 +14,10 @@ public class Solution {
     }
 
     public static void compare(Character first, Character second) {
+        //ТУТ вместо (first == second) используем (first.equals(second)) Т.К. сравнение символов идет по UNICODE
+        // и до 128 идет кэширование,  и эти числа не ссылочные т.о. можно сравнивать через "=="
+        // после 128 будет тололько ссылочное сравнение. И чтобы сравнить значения,
+        // нужно использовать "equals"
         if (first.equals(second)) {
             System.out.println("равны");
 
