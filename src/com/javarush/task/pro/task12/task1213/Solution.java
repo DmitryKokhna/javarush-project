@@ -18,8 +18,10 @@ public class Solution {
 
     public static void createNewPlanet(String planetName) {
         //напишите тут ваш код
+        //ТУТ получем номер Земли по индексу
         int planetNumber = planets.indexOf("Земля");
-        planets.add(planetNumber+1,planetName);
+        //ТУТ вставляем новую планету после  индекса Земли
+        planets.add(planetNumber + 1, planetName);
     }
 
     public static void addPlanets() {
