@@ -14,6 +14,23 @@ public class Solution {
 
     public static void checkWords(String word) {
         //напишите тут ваш код
+
+        //ТАК ВАЛИДАТОР не принял
+        // ТУТ используем метод "CONTAINS()"
+     /*       if (words.contains(word)) {
+                System.out.println("Слово " + word + " есть в множестве");
+            } else {
+                System.out.println("Слово " + word + " нет в множестве");
+        }
+        */
+        if (words.contains(word)) {
+            System.out.println(String.format("Слово %s есть в множестве", word));
+        } else {
+            System.out.println(String.format("Слова %s нет в множестве", word));
+        }
+
+
+
     }
 
     public static void main(String[] args) {
