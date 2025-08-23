@@ -25,7 +25,7 @@ public class Solution {
         ArrayList<String> copyWordsThird = new ArrayList<>(words);
 
         removeBugWithFor(copyWordsFirst);
-        //     removeBugWithWhile(copyWordsSecond);
+        removeBugWithWhile(copyWordsSecond);
         removeBugWithCopy(copyWordsThird);
 
         copyWordsFirst.forEach(System.out::println);
@@ -50,9 +50,17 @@ public class Solution {
 
     }
 
-//    public static void removeBugWithWhile(ArrayList<String> list) {
-//        //напишите тут ваш код
-//    }
+    public static void removeBugWithWhile(ArrayList<String> list) {
+        //напишите тут ваш код
+        Iterator<String> it = list.iterator();
+        while (it.hasNext())
+        {
+            String str = it.next();
+            String strLowerCase = str.toLowerCase();
+            if (strLowerCase.equals("bug"))
+                it.remove();
+        }
+    }
 
     public static void removeBugWithCopy(ArrayList<String> list) {
         //напишите тут ваш код
