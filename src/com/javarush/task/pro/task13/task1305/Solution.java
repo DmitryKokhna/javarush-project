@@ -46,7 +46,7 @@ public class Solution {
         // сдвигаем Индекс на минус 1, т.к. список стал меньше
         for (int i = 0; i < list.size(); i++) {
             s = list.get(i).toLowerCase();
-            if (s.equals("bug")) {
+            if (s.equals("bug")) {  // equalsIgnoreCase() не используем
                 list.remove(i);
                 i--;
             }
@@ -65,7 +65,7 @@ public class Solution {
         while (it.hasNext()) {
             String str = it.next();
             String strLowerCase = str.toLowerCase();
-            if (strLowerCase.equals("bug"))
+            if (strLowerCase.equals("bug")) // equalsIgnoreCase() не используем
                 it.remove();
         }
     }
@@ -81,7 +81,7 @@ public class Solution {
         // удаляем по значению
         for (String string : copyList) {
             lowerCase = string.toLowerCase();
-            if (lowerCase.equals("bug")) {
+            if (lowerCase.equals("bug")) { // equalsIgnoreCase() не используем
                 list.remove(string);
 
             }
