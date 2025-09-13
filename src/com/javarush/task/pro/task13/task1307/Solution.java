@@ -1,5 +1,6 @@
 package com.javarush.task.pro.task13.task1307;
 
+import javax.print.attribute.TextSyntax;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Collections;
@@ -23,7 +24,7 @@ public class Solution {
     public static void sort(ArrayList<Integer> list) {
         // ТУТ используем метод "sort" класса Collections для сортировки
         Collections.sort(list);
-
+        TextSyntax
 //        int n = list.size();
 //        int temp;
 //        for (int i = 0; i < n; i++) {
