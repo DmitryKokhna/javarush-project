@@ -24,7 +24,7 @@ public class Solution {
     public static void sort(ArrayList<Integer> list) {
         // ТУТ используем метод "sort" класса Collections для сортировки
         Collections.sort(list);
-        TextSyntax
+
 //        int n = list.size();
 //        int temp;
 //        for (int i = 0; i < n; i++) {
