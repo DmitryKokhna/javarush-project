@@ -16,7 +16,7 @@ public class Solution {
 
     public static void addStudents() {
         //напишите тут ваш код
-        // ТУТ ЗАПОЛНЯЕМ испольязуя метод PUT
+        // ТУТ ЗАПОЛНЯЕМ испольязуя метод PUT !!!!!!!!
         Double rate = 0.0;
         String name = Integer.toString(rate.intValue());
         for (int i = 0; i < 5; i++) {
